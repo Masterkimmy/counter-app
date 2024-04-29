@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>master counter</title>
+    <link rel="stylesheet" href="cun.css">
+</head>
+<body>
+   <main class="all div">
+        <div class="all">
+          <div class="master">
+            <h1 class="kim">Master Kimmy</h1>
+            <p>Counter App</p>
+         <div  class="btn">
+            <button class="dicrease"onclick = "dic()">minus</button>
+            <h1 class="numbers">0</h1>
+            <button class="increase"  onclick="inc()">Plus</button>
+         </div>
+            <button class="rest" onclick="reset()">Reset</button>
+        </div> 
+   </main>
+    <script>
+          let number = 0
+      const numbers = document.querySelector(".numbers")
+      function dic() {
+        if(number >= 1){
+            number--
+        number--
+        numbers.innerHTML = number--;
+      }
+        }
+        function reset(){
+            number = 0
+        numbers.innerHTML = number = 0;
+        }
+  
+         function inc(){
+         number++
+           numbers.innerHTML = number++;
+         }
+
+    </script>
+    
+</body>
+</html>
