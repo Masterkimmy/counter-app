@@ -22,22 +22,21 @@
    </main>
     <script>
           let number = 0
-      const numbers = document.querySelector(".numbers")
+      const counter = document.querySelector(".numbers")
       function dic() {
-        if(number >= 1){
-            number--
+        if(number > 0){
         number--
-        numbers.innerHTML = number--;
+        counter.innerHTML = number; 
       }
         }
         function reset(){
             number = 0
-        numbers.innerHTML = number = 0;
+        counter.innerHTML = number;
         }
   
          function inc(){
          number++
-           numbers.innerHTML = number++;
+           counter.innerHTML = number;
          }
 
     </script>

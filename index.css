@@ -46,6 +46,7 @@
     border: none;
     border-radius: 7px;
     box-shadow: 2px 3px 7px;
+    cursor: pointer;
 }
 .numbers{
     display: flex;
